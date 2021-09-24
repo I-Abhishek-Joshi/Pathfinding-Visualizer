@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="name">
+            <p>Pathfinding Visualizer</p>
+        </div>
+        <div class="buttons">
+            <button class="btn">Start</button>
+            <button class="btn">Reset</button>
+        </div>
+    </div>
+
+    <div class="color-nav">
+        <div class="color-info">
+            <div class="color-box wall"></div>
+            <p>Wall</p>
+        </div>
+        <div class="color-info">
+            <div class="color-box start"></div>
+            <p>Start</p>
+        </div>
+        <div class="color-info">
+            <div class="color-box target"></div>
+            <p>Target</p>
+        </div>
+        <div class="color-info">
+            <div class="color-box searching"></div>
+            <p>Searching</p>
+        </div>
+        <div class="color-info">
+            <div class="color-box visited"></div>
+            <p>Visited</p>
+        </div>
+        <div class="color-info">
+            <div class="color-box shortest-path"></div>
+            <p>Shortest-Path</p>
+        </div>
+        <div class="color-info">
+            <div class="color-box unvisited"></div>
+            <p>Unvisited</p>
+        </div>
+    </div>
+    <div class="message-nav">
+        <p>*The shortest path displayed is on the basis of the number of cell transitions.</p>
+    </div>
+
+
+    <div class="container">
+        <div class="grid">
+            
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
